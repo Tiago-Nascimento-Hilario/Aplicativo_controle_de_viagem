@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Controle de Viagem</string>
+    <string name="km">Km</string>
+    <string name="litros">Preço</string>
+    <string name="preco">Autonomia</string>
+</resources>

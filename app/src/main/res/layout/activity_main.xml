@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+    <EditText
+        android:id="@+id/editText_km_distancia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:hint="@string/km"
+        android:inputType="number"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Distância"
+        android:layout_gravity="center"
+        android:textSize="16sp"/>
+    <EditText
+        android:id="@+id/editText_preco_por_litro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:hint="@string/litros"
+        android:inputType="numberDecimal"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Combustível Preço Por Litro"
+        android:layout_gravity="center"
+        android:textSize="16sp"/>
+    <EditText
+        android:id="@+id/editText_autonomia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:hint="@string/preco"
+        android:inputType="number"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KMs Por Litro"
+        android:layout_gravity="center"
+        android:textSize="16sp"/>
+    <TextView
+        android:id="@+id/text_valor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R$ 0"
+        android:textColor="@color/purple_200"
+        android:textSize="32sp"
+        android:layout_marginTop="32dp"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:id="@+id/button_calcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_marginTop="32dp"
+        android:text="Calcular"
+        android:textStyle="bold"
+        android:textSize="24sp" />
+
+
+
+
+</LinearLayout>
